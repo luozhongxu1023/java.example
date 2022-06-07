@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息界面</title>
+    <link href="lzx.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="one">
+    <h2>
+        登录页面
+    </h2>
+    <form action="#" method="post" class="list" >
+        <label for="name">登录姓名：</label>
+        <input class="input" type="text" value="请输入姓名" maxlenght="6" id="name"/><br /><br />
+        <label for="password">登录密码：</label>
+        <input class="input" type="password" id="password"><br /><br />
+        <div class="q"><input class="b"  type="reset" value="重置" />&nbsp;&nbsp;
+            <input class="img" type="image" src="../../imgs/login.gif"  /></div>
+        </form>
+</div>
+<br>
+<div class="two">
+    <h2>
+        个人信息
+    </h2>
+<form action="#" method="post" class="list">
+    <label for="name1">姓名：</label>
+    <input class="input1" type="text" value="罗中旭" maxlength="6" id="name1"/><br /><br />
+    <label for="class">班级：</label>
+    <input class="input1" type="text" maxlength="6"  id="class" /><br /><br />
+    性别：
+    <input type="radio" name="sex" checked="checked" id="man"/><label for="man">男</label>
+    <input type="radio" name="sex" id="woman"/><label for="woman">女</label><br /><br />
+    兴趣：
+    <input type="checkbox" id="sing"/><label for="sing">唱歌</label>
+    <input type="checkbox" id="dance"/><label for="dance">跳舞</label>
+    <input type="checkbox" id="swimming"/><label for="swimming">游泳</label><br /><br />
+    上传头像：
+    <input type="file" value="选择文件" /><br /><br />
+    <div class="w"><input class="b" type="reset" value="重置"/>&nbsp;&nbsp;
+        <input class="b" type="submit" value="提交"/></div>
+</form></div>
+</body>
+</html>
